@@ -16,7 +16,6 @@ public class HomeController : ControllerBase
 
     [HttpGet]
     [Route("authenticated")]
-    [Authorize]
     public string Authenticated() => "Autorizado";
 
     [HttpGet]
